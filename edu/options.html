@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Question Bank Portal</title>
+    <style>
+        /* Body: Background Image with Gradient Overlay */
+        body {
+            font-family: Arial, sans-serif;
+            background: url('https://hosttools.com/wp-content/uploads/Screen-Shot-2023-08-04-at-11.44.54-AM.png') no-repeat center center fixed; 
+            background-size: cover; /* Cover the full screen */
+            background-attachment: fixed; /* Make the background fixed */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #fff;
+        }
+
+        /* Container for content */
+        .container {
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            width: 90%;
+            max-width: 800px;
+            text-align: center;
+            position: relative;
+        }
+
+        /* Title */
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #fff; /* Set text color to white */
+        }
+
+        /* Navigation Menu */
+        nav {
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: center; /* Align the items to the center */
+        }
+
+        nav a {
+            margin: 0 15px; /* Space between links */
+            padding: 12px 25px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 18px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        /* Hover Effects */
+        nav a:hover {
+            background-color: #0056b3;
+            transform: scale(1.1); /* Slightly enlarge when hovering */
+        }
+
+        nav a:active {
+            transform: scale(1); /* Reset scale on click */
+        }
+
+        /* Footer Section */
+        .footer {
+            font-size: 14px;
+            margin-top: 20px;
+        }
+
+        /* Background Gradient Overlay for better text visibility */
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4); /* Dark overlay to improve contrast */
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="overlay"></div> <!-- Dark background overlay -->
+    
+    <div class="container">
+        <!-- Title Section -->
+        <h1>Welcome to the Question Bank Portal</h1>
+
+        <!-- Navigation Menu -->
+        <nav>
+            <a href="Question_Bank.html">Question Bank</a> <!-- Link to the Question_Bank.html page -->
+            <a href="Question_bank_answers.html">Question Bank Solutions</a> <!-- Link to Question_Bank_Solutions.html -->
+            <a href="resources.html">Resources</a> <!-- Link to Resources page -->
+            <a href="feedback.html">Feedback</a> <!-- Link to Feedback page -->
+        </nav>
+
+        <!-- Call to Action -->
+        <p>Choose one of the options above to get started.</p>
+
+        <!-- Footer -->
+        <div class="footer">
+        </div>
+    </div>
+
+</body>
+</html>
